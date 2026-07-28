@@ -67,4 +67,4 @@ app.post('/api/auth/register', handleRegister);
 app.post('/api/auth/login', handleLogin);
 
 const PORT = process.env.PORT || 10000;
-app.listen(PORT, () => console.log(`서버가 ${PORT}번 포트에서 돌아갑니다.`));
+app.listen(PORT, () => console.log(`서버가 ${PORT}번 포트에서 돌아갑니다.`)); 
